@@ -1,0 +1,152 @@
+/* start nav bar css */
+.classe-logo{
+    width: 150px;
+    height: 100px;
+}
+.navbar-custom{
+    background-color: rgba(23, 21, 19, 0.684);
+    
+}
+.nav-item{
+    font-family: 'Macondo', cursive;
+}
+.nav-item:hover{
+    border-bottom: solid rgb(20, 121, 215);
+}
+/* end nav bar css */
+
+/* start header css */
+.h1-custom{
+    font-family: 'Macondo', cursive;
+    color: white;
+    font-size: 60px;
+}
+.header-mio{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.273), rgba(0, 0, 0, 0.421)), url(./cartella-foto/spideomanno.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 3px solid red;
+}
+/* end header css */
+
+/* inizio main */
+.testo-h3{
+    font-family: 'Macondo', cursive;
+    font-size: 50px;
+    color: white;
+}
+.testo-p1{
+    font-family: 'Macondo', cursive;
+    height:230px;
+    font-size: 30px;
+}
+.testo-p2{
+    font-family: 'Macondo', cursive;
+    font-size: 30px;
+}
+.sfondospidey{
+    border: 3px solid rgb(206, 197, 236);
+    background:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./cartella-foto/rubaitul-azad-pZS4mr9UoNA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h5custom{
+    color: rgb(228, 45, 69);
+}
+.carosello-custom{
+    border-radius: 50%;
+    border: 4px solid rgb(0, 0, 0);
+}
+/* fine main */
+
+/* section video */
+article {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  article video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  article .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  article .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) {
+    article {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    article video {
+      display: none;
+    }
+  }
+  .fonth3video{
+    font-family: 'Macondo', cursive;
+  }
+  /* fine section video */
+
+  /* inizio footer */
+  .footer{
+    background-color: #24262b;
+    padding: 70px 0;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .testoh4{
+    color:white;
+    font-family: 'Macondo', cursive;
+  }
+  .unorder-list{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+  .list-a{
+    text-decoration: none;
+    color:#ffffff;
+    color:#bbbbbb;
+    transition: all 0.4s ease;
+  }
+  .list-a:hover{
+    color:#ffffff;
+    padding-left: 10px;
+  }
+

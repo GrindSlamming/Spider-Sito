@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITO-SPIDEY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./spider-style.css">
+</head>
+
+<body>
+    <!-- inizio navbar al bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="classe-logo" src="./cartella-foto/immagine spidey.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="#">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="#">CHI SIAMO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="">CONTATTI</a>
+                    </li>
+                </ul>
+                <div class="text-white me-3">
+                    <i class="fa-beat fa-solid fa-angles-right fa-xl"></i>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Scrivi qui" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cerca</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- fine navbar fuori al bar -->
+
+    <!-- inizio header -->
+    <header class="container-fluid header-mio d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="h1-custom">IL TUO AMICHEVOLE SPIDERMAN DI QUARTIERE</h1>
+            </div>
+        </div>
+    </header>
+    <!-- fine header -->
+
+    <!-- inizio main -->
+    <main class="sfondospidey">
+        <section class="container justify-content-end">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h3 class="testo-h3">🕸SCOPRI LE AVVENTURE DELL'UOMO RAGNO🕸</h3>
+                    </div>
+                    <p class="testo-p1 mt-5">Peter Parker alias Spider-Man è un giovane brillante con la passione per la
+                        fotografia che viene morso da un ragno radioattivo e assume super-poteri come una forza
+                        sovrumana e la capacità di arrampicarsi sui muri.</p>
+                    <p class="testo-p2">Fin dalle storie originali di Stan Lee e Steve Ditko, Spider-Man ha avuto la
+                        capacità di aggrapparsi ai muri e altri poteri che includono forza, velocità, equilibrio e
+                        agilità sovrumane, e un sesto senso precognitivo chiamato "senso di ragno", che lo avverte del
+                        pericolo.</p>
+                </div>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner carosello-custom">
+                        <div class="carousel-item active">
+                            <img src="./cartella-foto/spider-man-no-way-home.jpg" class="d-block w-100 img-merda1"
+                                alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="h5custom">Spidey-Boy</h5>
+                                <p class="text-black">Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./cartella-foto/spider-man-no-way-home.jpg" class="d-block w-100 img-merda1"
+                                alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./cartella-foto/spider-man-no-way-home.jpg" class="d-block w-100 img-merda1"
+                                alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- fine main -->
+
+    <!-- inizio sezione video -->
+
+                <article>
+                    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+                    <div class="overlay"></div>
+        
+                    <!-- The HTML5 video element that will create the background video on the header -->
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                        <source src="./cartella-foto/Spider-Man Across the Spider-Verse Movie Clip - Stop Spider-Man (2023).mp4" type="video/mp4">
+                    </video>
+        
+                    <!-- The header content -->
+                    <div class="container h-100">
+                        <div class="d-flex h-100 text-center align-items-center">
+                            <div class="w-100 text-white">
+                                <h2 class="display-3 fonth3video">Trailer Video</h2>
+                                <p class="lead mb-0"></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+    <!-- fine sezione video -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h4 class="testoh4">Chi siamo</h4>
+                    <ul class="unorder-list">
+                        <li class="m-2"><a class="list-a" href="">link1</a></li>
+                        <li class="m-2"><a class="list-a" href="">link2</a></li>
+                        <li class="m-2"><a class="list-a" href="">link3</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h4 class="testoh4">Contattaci</h4>
+                    <div class="link-social ms-2">
+                        <a class="list-a mx-1" href=""><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a class="list-a mx-1" href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a class="list-a mx-1" href=""><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h4 class="testoh4">La nostra politica</h4>
+                    <ul class="unorder-list">
+                        <li class="m-2"><a class="list-a" href="">link1</a></li>
+                        <li class="m-2"><a class="list-a" href="">link2</a></li>
+                        <li class="m-2"><a class="list-a" href="">link3</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h4 class="testoh4">Lavora con noi</h4>
+                    <ul class="unorder-list">
+                        <li class="m-2"><a class="list-a" href="">link1</a></li>
+                        <li class="m-2"><a class="list-a" href="">link2</a></li>
+                        <li class="m-2"><a class="list-a" href="">link3</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </footer>
+    <!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- script fontawesome -->
+    <script src="https://kit.fontawesome.com/38bdc16665.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
